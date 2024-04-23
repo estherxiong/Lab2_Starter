@@ -50,7 +50,7 @@ h2 {
     padding-right: 25px;
     padding-bottom: 15px;
     padding-left: 25px;
-    color: color(srgb 255 255 0 / 50%); /* 50% transparency red color using sRGB color space */
+    color: rgba(255, 255, 0, 0.5) /* 50% transparency red color using sRGB color space */
 }
 
 /* Padding */
@@ -58,7 +58,7 @@ h2 {
 /* Shorthand syntax */
 h3 {
     padding: 20px;
-    color: color-mix(difference, #ff0000 25%, #0000ff 75%); /* Mix red and blue colors with different intensity */
+    color: color-mix(100, #ff0000 25%, #0000ff 75%); /* Mix red and blue colors with different intensity */
 }
 
 /* Borders */
