@@ -27,6 +27,8 @@ h1 {
     font-size: 2rem;
     margin-top: 20px;
     padding: 10px;
+    color: hsl(120, 100%, 50%); /* Fully saturated green color using HSL values */
+    background-color: hsla(240, 100%, 50%, 0.7); /* Semi-transparent blue color using HSLA values */
 }
 
 /* Box Model */
@@ -37,6 +39,7 @@ h1 {
 /* Auto margins */
 h2 {
     margin: 0 auto;
+    color: color(srgb 255 0 0 / 50%); /* 50% transparency red color using sRGB color space */
 }
 
 /* Padding */
@@ -44,6 +47,7 @@ h2 {
 /* Shorthand syntax */
 h3 {
     padding: 20px;
+    color: color-mix(difference, #ff0000 25%, #0000ff 75%); /* Mix red and blue colors with different intensity */
 }
 
 /* Borders */
