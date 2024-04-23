@@ -15,7 +15,7 @@
 /* Background */
 /* Apply background styles to your elements */
 body {
-    color: rgb(255, 0, 0); /* Red color using rgb values */
+    color: rgb(128, 0, 0); /* Red color using rgb values */
     background-color: rgba(0, 128, 0, 0.5); /* Semi-transparent green color using rgba values */
 }
 
