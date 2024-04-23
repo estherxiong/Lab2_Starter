@@ -58,7 +58,7 @@ h2 {
 /* Shorthand syntax */
 h3 {
     padding: 20px;
-    color: color-mix(red, #ff0000 25%, #0000ff 75%); /* Mix red and blue colors with different intensity */
+    color: color-mix(difference,#ff0000 25%,#0000ff 75%); /* Mix red and blue colors with different intensity */
 }
 
 /* Borders */
@@ -71,6 +71,7 @@ section {
     border: 1px solid #ccc;
     border-radius: 10px;
     margin: 10px 20px;
+    color: #ff0000;
 }
 
 /* Text */
