@@ -12,6 +12,10 @@
     --main-color: #3366ff;
 }
 
+.fallback {
+    color: var(--main-color, blue); /* Use the variable with a fallback value of blue */
+}
+
 /* Background */
 /* Apply background styles to your elements */
 body {
