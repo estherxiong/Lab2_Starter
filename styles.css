@@ -30,6 +30,9 @@ body {
 h1 {
     font-size: 2rem;
     margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 20px;
     padding: 10px;
     color: hsl(120, 100%, 50%); /* Fully saturated green color using HSL values */
     background-color: hsla(240, 100%, 50%, 0.7); /* Semi-transparent blue color using HSLA values */
@@ -43,6 +46,10 @@ h1 {
 /* Auto margins */
 h2 {
     margin: 0 auto;
+    padding-top: 15px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+    padding-left: 25px;
     color: color(srgb 255 255 0 / 50%); /* 50% transparency red color using sRGB color space */
 }
 
@@ -63,6 +70,7 @@ h3 {
 section {
     border: 1px solid #ccc;
     border-radius: 10px;
+    margin: 10px 20px;
 }
 
 /* Text */
