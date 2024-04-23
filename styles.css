@@ -58,7 +58,7 @@ h2 {
 /* Shorthand syntax */
 h3 {
     padding: 20px;
-    color: color-mix(#ff0000 25%, #0000ff 75%);
+    color: color-mix(red 25%, blue 75%);
 }
 
 /* Borders */
