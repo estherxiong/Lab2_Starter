@@ -39,7 +39,7 @@ h1 {
 /* Auto margins */
 h2 {
     margin: 0 auto;
-    color: color(srgb 255 0 0 / 50%); /* 50% transparency red color using sRGB color space */
+    color: color(srgb 255 255 0 / 50%); /* 50% transparency red color using sRGB color space */
 }
 
 /* Padding */
